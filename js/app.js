@@ -23,32 +23,39 @@ document.addEventListener(
 
 function loadData(){
 
-    fetch("data/data.json")
+    var xhr =
+        new XMLHttpRequest();
 
-    .then(function(response){
+    xhr.onreadystatechange =
+        function(){
 
-        return response.json();
+            if(
+                xhr.readyState === 4 &&
+                xhr.status === 200
+            ){
 
-    })
+                appData =
+                    JSON.parse(
+                        xhr.responseText
+                    );
 
-    .then(function(data){
+                buildOfficeList();
 
-        appData = data;
+                buildPrograms();
 
-        buildOfficeList();
+            }
 
-        buildPrograms();
+        };
 
-    })
+    xhr.open(
+        "GET",
+        "data/data.json",
+        true
+    );
 
-    .catch(function(error){
-
-        console.log(error);
-
-    });
+    xhr.send();
 
 }
-
 function setupButtons(){
 
     document
