@@ -7,10 +7,7 @@
 
     <meta
         name="viewport"
-        content="width=device-width,
-        initial-scale=1.0,
-        maximum-scale=1.0,
-        user-scalable=no">
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <title>IC CMRU Visitor Kiosk</title>
 
@@ -24,4 +21,327 @@
 
     <link
         rel="stylesheet"
-        href="css/style
+        href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="app-container">
+
+    <div class="bg-shape bg-shape-1"></div>
+    <div class="bg-shape bg-shape-2"></div>
+
+    <header class="header">
+
+        <div class="header-left">
+
+            <button
+                id="homeBtn"
+                class="icon-btn"
+                style="visibility:hidden;">
+
+                <i class="fa-solid fa-house"></i>
+
+            </button>
+
+            <button
+                id="backBtn"
+                class="icon-btn"
+                style="visibility:hidden;">
+
+                <i class="fa-solid fa-chevron-left"></i>
+
+            </button>
+
+        </div>
+
+        <div class="logo-area">
+
+            <img
+                src="images/IC_CMRU.png"
+                class="org-logo"
+                alt="IC CMRU">
+
+            <h1>
+                International College<br>
+                Chiang Mai Rajabhat University
+            </h1>
+
+        </div>
+
+        <div class="header-right">
+
+            <button
+                id="langToggle"
+                class="icon-btn">
+
+                EN
+
+            </button>
+
+        </div>
+
+    </header>
+
+    <main class="content-area">
+
+        <!-- HOME -->
+
+        <section
+            id="screen-home"
+            class="screen active">
+
+            <h2
+                class="welcome-text"
+                data-th="ยินดีต้อนรับ<br><span>กรุณาเลือกบริการที่ต้องการ</span>"
+                data-en="WELCOME<br><span>Please select a service</span>">
+
+                ยินดีต้อนรับ
+
+            </h2>
+
+            <div class="menu-grid">
+
+                <button
+                    class="main-menu-btn"
+                    data-target="screen-office">
+
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-building"></i>
+                    </div>
+
+                    <div class="menu-text-wrapper">
+
+                        <h3
+                            data-th="ติดต่อออฟฟิศ"
+                            data-en="Contact Office">
+
+                            ติดต่อออฟฟิศ
+
+                        </h3>
+
+                        <p
+                            data-th="งานธุรการ วีซ่า และบริการต่าง ๆ"
+                            data-en="Administration, Visa and Services">
+
+                            งานธุรการ วีซ่า และบริการต่าง ๆ
+
+                        </p>
+
+                    </div>
+
+                </button>
+
+                <button
+                    class="main-menu-btn"
+                    data-target="screen-faculty">
+
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+
+                    <div class="menu-text-wrapper">
+
+                        <h3
+                            data-th="ติดต่ออาจารย์"
+                            data-en="Contact Faculty">
+
+                            ติดต่ออาจารย์
+
+                        </h3>
+
+                        <p
+                            data-th="อาจารย์ประจำหลักสูตร"
+                            data-en="Faculty Members">
+
+                            อาจารย์ประจำหลักสูตร
+
+                        </p>
+
+                    </div>
+
+                </button>
+
+                <button
+                    class="main-menu-btn"
+                    data-target="screen-booking">
+
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-calendar-check"></i>
+                    </div>
+
+                    <div class="menu-text-wrapper">
+
+                        <h3
+                            data-th="จองห้อง"
+                            data-en="Room Booking">
+
+                            จองห้อง
+
+                        </h3>
+
+                        <p
+                            data-th="สอบถามการใช้งานห้อง"
+                            data-en="Room Reservation Information">
+
+                            สอบถามการใช้งานห้อง
+
+                        </p>
+
+                    </div>
+
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- OFFICE -->
+
+        <section
+            id="screen-office"
+            class="screen">
+
+            <h2
+                class="section-title">
+
+                Office
+
+            </h2>
+
+            <div
+                id="office-list"
+                class="list-container">
+
+            </div>
+
+        </section>
+
+        <!-- FACULTY -->
+
+        <section
+            id="screen-faculty"
+            class="screen">
+
+            <h2
+                class="section-title">
+
+                Programs
+
+            </h2>
+
+            <div
+                id="faculty-programs"
+                class="list-container grid-list">
+
+            </div>
+
+        </section>
+
+        <!-- INSTRUCTORS -->
+
+        <section
+            id="screen-instructors"
+            class="screen">
+
+            <h2
+                id="faculty-title"
+                class="section-title">
+
+                Faculty
+
+            </h2>
+
+            <div
+                id="instructor-list"
+                class="list-container">
+
+            </div>
+
+        </section>
+
+        <!-- BOOKING -->
+
+        <section
+            id="screen-booking"
+            class="screen">
+
+            <h2
+                class="section-title">
+
+                Room Booking
+
+            </h2>
+
+            <div class="list-container">
+
+                <div class="list-item">
+
+                    กรุณาติดต่อเจ้าหน้าที่ออฟฟิศเพื่อจองห้อง
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- MAP -->
+
+        <section
+            id="screen-map"
+            class="screen">
+
+            <div class="map-header">
+
+                <h2 class="section-title">
+
+                    Floor Plan
+
+                </h2>
+
+                <p
+                    id="map-subtitle"
+                    class="map-subtitle">
+
+                    Location
+
+                </p>
+
+            </div>
+
+            <div class="map-wrapper">
+
+                <div
+                    id="map-container"
+                    class="map-container">
+
+                    <img
+                        src="images/floorplan.png"
+                        id="floorplan-img"
+                        alt="Floor Plan">
+
+                    <div
+                        id="map-pin"
+                        class="pin">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <div class="pulse"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
