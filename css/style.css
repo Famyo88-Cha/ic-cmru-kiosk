@@ -168,25 +168,27 @@ body{
 
 .icon-btn{
 
-    width:60px;
-    height:60px;
+    width:75px;
 
-    border:none;
+    height:75px;
+
     border-radius:50%;
-    background:
 
-        rgba(
-            255,
-            255,
-            255,
-            .08
-        );
+    background:#123b70;
 
-    color:#fff;
+    border:3px solid #77c5f2;
 
-    font-size:22px;
+    color:#ffffff;
 
-    cursor:pointer;
+    font-size:26px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
 
 }
 
@@ -367,16 +369,13 @@ border-radius:24px;
 
 .list-container{
 
-    display:flex;
-
-    flex-direction:column;
-
-    gap:12px;
+  display:block;
 
 }
 
 .list-item{
-
+     padding:25px;
+    margin-bottom:20px;
     background:
 
         rgba(
@@ -422,21 +421,16 @@ border-radius:24px;
 }
 .grid-list{
 
-    display:grid;
-
-    grid-template-columns:
-
-        repeat(
-            2,
-            1fr
-        );
-
-    gap:15px;
+    display:block;
 
 }
 
 .branch-card{
 
+    box-shadow:
+        0 8px 20px rgba(0,0,0,.25);
+    margin-bottom:15px;
+    width:100%;
     background:
 
         rgba(
@@ -479,20 +473,25 @@ border-radius:24px;
 
 .instructor-img{
 
-    width:70px;
-    height:70px;
+    width:90px;
+    height:90px;
 
     border-radius:50%;
 
     object-fit:cover;
 
 }
+.main-menu-btn{
 
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.25);
+
+}
 .map-wrapper{
 
     width:100%;
 
-    height:70vh;
+    height:80vh;
 
     display:flex;
 
@@ -525,7 +524,7 @@ border-radius:24px;
 
     max-width:100%;
 
-    max-height:65vh;
+    max-height:78vh;
 
 }
 
