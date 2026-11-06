@@ -172,7 +172,7 @@ body{
     height:60px;
 
     border:none;
-
+    border-radius:50%;
     background:
 
         rgba(
@@ -408,7 +408,18 @@ border-radius:24px;
         var(--blue);
 
 }
+#langToggle{
 
+    width:60px;
+    height:60px;
+
+    border-radius:50%;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+}
 .grid-list{
 
     display:grid;
