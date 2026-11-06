@@ -106,7 +106,7 @@ body{
 
 .header{
 
-    height:140px;
+    height:110px;
 
     display:flex;
 
@@ -234,7 +234,7 @@ body{
 
     text-align:center;
 
-    margin-top:20px;
+    margin-top:40px;
     margin-bottom:40px;
 
     font-size:42px;
