@@ -374,8 +374,10 @@ border-radius:24px;
 }
 
 .list-item{
-    padding:50px;
-    margin-bottom:20px;
+
+    margin-bottom:40px !important;
+
+    padding:35px !important;
     background:
 
         rgba(
