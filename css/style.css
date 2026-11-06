@@ -259,16 +259,25 @@ body{
 
 }
 
+
 .section-title{
 
     text-align:center;
-    margin-top:50px;
-    margin-bottom:25px;
 
-    color:
-        var(--sky);
+    font-size:42px;
 
-    font-size:34px;
+    font-weight:700;
+
+    color:#77c5f2;
+
+    margin-top:20px;
+
+    margin-bottom:40px;
+
+    text-shadow:
+        0 0 20px rgba(119,197,242,.4);
+
+}
 
 }
 
