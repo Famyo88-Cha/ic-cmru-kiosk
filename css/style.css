@@ -273,11 +273,10 @@ body{
 }
 
 .menu-grid{
-    display:flex;
-    flex-direction:column;
+    display:block;
 }
 
-}
+
 
 .main-menu-btn{
 
