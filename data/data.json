@@ -1,0 +1,153 @@
+{
+  "offices": [
+    {
+      "id": "student-affairs",
+      "name": {
+        "th": "งานกิจการนักศึกษา",
+        "en": "Student Affairs"
+      },
+      "x": 25,
+      "y": 35
+    },
+    {
+      "id": "admissions",
+      "name": {
+        "th": "งานรับสมัครนักศึกษา",
+        "en": "Admissions Office"
+      },
+      "x": 42,
+      "y": 30
+    },
+    {
+      "id": "visa",
+      "name": {
+        "th": "งานวีซ่า",
+        "en": "Visa Services"
+      },
+      "x": 55,
+      "y": 30
+    },
+    {
+      "id": "it",
+      "name": {
+        "th": "งานเทคโนโลยีสารสนเทศ",
+        "en": "IT Support"
+      },
+      "x": 70,
+      "y": 25
+    },
+    {
+      "id": "general",
+      "name": {
+        "th": "งานธุรการ",
+        "en": "Administration"
+      },
+      "x": 35,
+      "y": 55
+    }
+  ],
+
+  "programs": [
+    "ABM",
+    "IBM",
+    "BC",
+    "EIC",
+    "BTF"
+  ],
+
+  "instructors": {
+
+    "ABM": [
+      {
+        "name": "Asst.Prof. Phichaya M.",
+        "image": "images/faculty/default.png",
+        "x": 20,
+        "y": 75
+      },
+      {
+        "name": "Asst.Prof. Jittikhun N.",
+        "image": "images/faculty/default.png",
+        "x": 25,
+        "y": 75
+      },
+      {
+        "name": "Kanokwan K.",
+        "image": "images/faculty/default.png",
+        "x": 30,
+        "y": 75
+      },
+      {
+        "name": "Chalitda W.",
+        "image": "images/faculty/default.png",
+        "x": 35,
+        "y": 75
+      }
+    ],
+
+    "IBM": [
+      {
+        "name": "Waewwan L.",
+        "image": "images/faculty/default.png",
+        "x": 50,
+        "y": 75
+      },
+      {
+        "name": "Dr. Patarasri I.",
+        "image": "images/faculty/default.png",
+        "x": 55,
+        "y": 75
+      },
+      {
+        "name": "Waranya L.",
+        "image": "images/faculty/default.png",
+        "x": 60,
+        "y": 75
+      }
+    ],
+
+    "BC": [
+      {
+        "name": "Kittirat P.",
+        "image": "images/faculty/default.png",
+        "x": 40,
+        "y": 55
+      },
+      {
+        "name": "Tunyanusorn S.",
+        "image": "images/faculty/default.png",
+        "x": 45,
+        "y": 55
+      }
+    ],
+
+    "EIC": [
+      {
+        "name": "Thanyalak K.",
+        "image": "images/faculty/default.png",
+        "x": 65,
+        "y": 60
+      },
+      {
+        "name": "Kamonwan S.",
+        "image": "images/faculty/default.png",
+        "x": 70,
+        "y": 60
+      }
+    ],
+
+    "BTF": [
+      {
+        "name": "Yaowarat R.",
+        "image": "images/faculty/default.png",
+        "x": 80,
+        "y": 50
+      },
+      {
+        "name": "Phusatchi K.",
+        "image": "images/faculty/default.png",
+        "x": 85,
+        "y": 50
+      }
+    ]
+  }
+}
