@@ -280,12 +280,13 @@ body{
 
 .main-menu-btn{
 
-    width:100%;
-    margin-bottom:40px;
-    padding:35px;
-    min-height:150px;
-    border:none;
+width:100%;
 
+    margin-bottom:40px !important;
+
+    padding:35px !important;
+
+    min-height:150px !important;
     background:
         rgba(
             255,
