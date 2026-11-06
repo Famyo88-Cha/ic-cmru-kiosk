@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    padding:0;
+    background:#eef4fa;
+    color:#122b4b;
+    font-family:Tahoma,Arial,sans-serif;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.hero{
+    background:url("assets/hero.jpg");
+    background-size:cover;
+    background-position:center center;
+}
+
+.hero-overlay{
+    background:rgba(7,28,59,.85);
+    padding-top:20px;
+    padding-bottom:60px;
+}
+
+.topbar{
+    overflow:hidden;
+}
+
+.brand{
+    float:left;
+    color:#ffffff;
+}
+
+.logo{
+    width:54px;
+    height:54px;
+    float:left;
+    background:#ffffff;
+    border-radius:8px;
+    padding:4px;
+    margin-right:12px;
+}
+
+.brand-title{
+    padding-top:18px;
+    font-size:13px;
+    font-weight:bold;
+    letter-spacing:1px;
+}
+
+.language-switch{
