@@ -152,7 +152,7 @@ body{
 
     width:auto;
 
-    margin-bottom:8px;
+    margin-bottom:100px;
 
 }
 
@@ -162,7 +162,7 @@ body{
 
     line-height:1.3;
 
-    font-weight:600;
+    font-weight:800;
 
 }
 
@@ -281,7 +281,7 @@ body{
 .main-menu-btn{
 
 width:100%;
-
+border:5px solid red !important;
     margin-bottom:40px !important;
 
     padding:35px !important;
