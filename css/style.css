@@ -143,16 +143,16 @@ body{
 .logo-area{
 
     text-align:center;
-    padding-top:20px;
+    padding-top:100px;
 }
 
 .org-logo{
 
-    height:70px;
+    height:50px;
 
     width:auto;
     
-    margin-bottom:20px;
+    margin-bottom:15px;
 
 }
 
@@ -279,7 +279,7 @@ body{
 .main-menu-btn{
 
 width:100%;
-border:5px solid red !important;
+
     margin-bottom:40px !important;
 
     padding:35px !important;
@@ -319,7 +319,7 @@ border:5px solid red !important;
 .main-menu-btn:active{
 
     transform:scale(.98);
-
+border-radius:24px;
 }
 
 .icon-wrapper{
