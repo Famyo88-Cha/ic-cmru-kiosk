@@ -277,19 +277,25 @@ function createInstructor(
         currentMapItem =
         teacher;
             
-            showMap(
-                currentLang === "en"
-                ? teacher.name_th
-                : teacher.name_en,
-                teacher.x,
-                teacher.y,
-
-                "ห้อง : " +
-                teacher.room +
-
-                "<br>" +
-
-                teacher.detail_th
+    showMap(
+    
+            currentLang === "th"
+            ? teacher.name_th
+            : teacher.name_en,
+        
+            teacher.x,
+        
+            teacher.y,
+    
+            "Room/ห้อง : " +
+            teacher.room +
+    
+            "<br>" +
+    
+            teacher.detail_th,
+    
+            teacher.image
+    
     );
 };       
     container.appendChild(item);
