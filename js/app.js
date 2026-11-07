@@ -284,13 +284,33 @@ function createInstructor(
 function showMap(
     title,
     x,
-    y
+    y,
+    detail
 ){
+
+   document
+    .getElementById(
+        "map-subtitle"
+    ).innerHTML = title;
+
+if(detail){
 
     document
         .getElementById(
-            "map-subtitle"
-        ).innerHTML = title;
+            "map-detail"
+        )
+        .innerHTML = detail;
+
+}
+else{
+
+    document
+        .getElementById(
+            "map-detail"
+        )
+        .innerHTML = "";
+
+}
 
     navigateTo("screen-map");
 
