@@ -81,7 +81,7 @@
         "image": "images/faculty/Chalitda_Warapinpunturak.jpg",
         "x": 35,
         "y": 75
-      }
+      },
       {
         "name": "Suthamanee Thanaboonruang",
         "image": "images/faculty/Suthamanee_Thanaboonruang.jpg",
@@ -93,7 +93,7 @@
         "image": "images/faculty/Lanliya_Phraepanichawat.jpg",
         "x": 35,
         "y": 75
-      },
+      }
  
     ],
 
@@ -115,7 +115,7 @@
         "image": "images/faculty/Waranya_La-ongsri.jpg",
         "x": 60,
         "y": 75
-      }
+      },
       {
         "name": "Paveena Dangviroon",
         "image": "images/faculty/Paveena_Dangviroon.jpg",
@@ -133,7 +133,7 @@
         "image": "images/faculty/Mr.Harloi_Tungao.jpg",
         "x": 35,
         "y": 75
-      },
+      }
       
     ],
 
@@ -149,7 +149,7 @@
         "image": "images/faculty/Tunyanusorn_Suphasa.jpg",
         "x": 45,
         "y": 55
-      }
+      },
       {
         "name": "Patcharaporn Chaowanapoonpol",
         "image": "images/faculty/Patcharaporn_Chaowanapoonpol.jpg",
@@ -167,7 +167,7 @@
         "image": "images/faculty/Dr._Kamonchanok_Tosanguan.jpg",
         "x": 35,
         "y": 75
-      },
+      }
 
     ],
 
@@ -207,7 +207,7 @@
         "image": "images/faculty/Tifani_Yuris_Signori.jpg",
         "x": 35,
         "y": 75
-      },
+      }
     ],
 
     "BTF": [
@@ -240,7 +240,7 @@
         "image": "images/faculty/Dr._Suchanya_Wongwes.jpg",
         "x": 35,
         "y": 75
-      },
+      }
     ]
   }
 }
