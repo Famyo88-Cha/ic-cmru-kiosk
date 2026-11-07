@@ -61,8 +61,12 @@
       {
         "name": "Asst.Prof. Phichaya Maneerat",
         "image": "images/faculty/Phichaya.jpg",
-        "x": 20,
-        "y": 75
+        "detail": "n/a",
+        "room": "n/a",
+        "desk": "n/a",
+        "status": "n/a",
+        "x": 10,
+        "y": 60
       },
       {
         "name": "Asst.Prof.Jittikhun Niyomsiri",
