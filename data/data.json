@@ -58,193 +58,355 @@
   "instructors": {
 
     "ABM": [
-      {
-        "name": "Asst.Prof. Phichaya Maneerat",
-        "image": "images/faculty/Phichaya.jpg",
-        "detail": "n/a",
-        "room": "n/a",
-        "desk": "n/a",
-        "status": "n/a",
-        "x": 10,
-        "y": 60
-      },
-      {
-        "name": "Asst.Prof.Jittikhun Niyomsiri",
-        "image": "images/faculty/Jittikhun_Niyomsiri.jpg",
-        "x": 25,
-        "y": 75
-      },
-      {
-        "name": "Kanokwan Kadeedeng",
-        "image": "images/faculty/Kanokwan_Kadeedeng.jpg",
-        "x": 30,
-        "y": 75
-      },
-      {
-        "name": "Chalitda Warapinpunturak",
-        "image": "images/faculty/Chalitda_Warapinpunturak.jpg",
-        "x": 35,
-        "y": 75
-      },
-      {
-        "name": "Suthamanee Thanaboonruang",
-        "image": "images/faculty/Suthamanee_Thanaboonruang.jpg",
-        "x": 35,
-        "y": 75
-      },
-      {
-        "name": "Lanliya Phraepanichawat",
-        "image": "images/faculty/Lanliya_Phraepanichawat.jpg",
-        "x": 35,
-        "y": 75
-      }
- 
+  {
+    "name_th": "",
+    "name_en": "Asst.Prof.Phichaya Maneerat",
+    "image": "images/faculty/Phichaya.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+  {
+    "name_th": "",
+    "name_en": "Asst.Prof.Jittikhun Niyomsiri",
+    "image": "images/faculty/Jittikhun_Niyomsiri.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+  {
+    "name_th": "",
+    "name_en": "Kanokwan Kadeedeng",
+    "image": "images/faculty/Kanokwan_Kadeedeng.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+  {
+    "name_th": "",
+    "name_en": "Chalitda Warapinpunturak",
+    "image": "images/faculty/Chalitda_Warapinpunturak.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+  {
+    "name_th": "",
+    "name_en": "Suthamanee Thanaboonruang",
+    "image": "images/faculty/Suthamanee_Thanaboonruang.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+{
+    "name_th": "",
+    "name_en": "Lanliya Phraepanichawat",
+    "image": "images/faculty/Lanliya_Phraepanichawat.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  }
     ],
 
     "IBM": [
-      {
-        "name": "Waewwan La-ongsri",
-        "image": "images/faculty/Waewwan_La-ongsri.jpg",
-        "x": 50,
-        "y": 75
-      },
-      {
-        "name": "Dr. Patarasri Inkhao",
-        "image": "images/faculty/Dr._Patarasri_Inkhao.png",
-        "x": 55,
-        "y": 75
-      },
-      {
-        "name": "Waranya La-ongsri",
-        "image": "images/faculty/Waranya_La-ongsri.jpg",
-        "x": 60,
-        "y": 75
-      },
-      {
-        "name": "Paveena Dangviroon",
-        "image": "images/faculty/Paveena_Dangviroon.jpg",
-        "x": 35,
-        "y": 75
-      },
-      {
-        "name": "Mr.Janak Nandan Pandey",
-        "image": "images/faculty/Mr.Janak_Nandan_Pandey.jpg",
-        "x": 35,
-        "y": 75
-      },
-      {
-        "name": "Mr.Harloi Tungao",
-        "image": "images/faculty/Mr.Harloi_Tungao.jpg",
-        "x": 35,
-        "y": 75
-      }
+  {
+    "name_th": "",
+    "name_en": "Waewwan La-ongsri",
+    "image": "images/faculty/Waewwan_La-ongsri.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+  {
+    "name_th": "",
+    "name_en": "Dr. Patarasri Inkhao",
+    "image": "images/faculty/Dr._Patarasri_Inkhao.png",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+  {
+    "name_th": "",
+    "name_en": "Waranya La-ongsri",
+    "image": "images/faculty/Waranya_La-ongsri.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+        {
+    "name_th": "",
+    "name_en": "Paveena Dangviroon",
+    "image": "images/faculty/Paveena_Dangviroon.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+  {
+    "name_th": "",
+    "name_en": "Mr.Janak Nandan Pandey",
+    "image": "images/faculty/Mr.Janak_Nandan_Pandey.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+  {
+    "name_th": "",
+    "name_en": "Mr.Harloi Tungao",
+    "image": "images/faculty/Mr.Harloi_Tungao.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  }
       
     ],
 
     "BC": [
-      {
-        "name": "Kittirat Pottraitip",
-        "image": "images/faculty/Kittirat_Pottraitip.jpg",
-        "x": 40,
-        "y": 55
-      },
-      {
-        "name": "Tunyanusorn Suphasa",
-        "image": "images/faculty/Tunyanusorn_Suphasa.jpg",
-        "x": 45,
-        "y": 55
-      },
-      {
-        "name": "Patcharaporn Chaowanapoonpol",
-        "image": "images/faculty/Patcharaporn_Chaowanapoonpol.jpg",
-        "x": 35,
-        "y": 75
-      },
-      {
-        "name": "Chaiyapattarasurawong Wongla",
-        "image": "images/faculty/Chaiyapattarasurawong_Wongla.jpg",
-        "x": 35,
-        "y": 75
-      },
-      {
-        "name": "Dr. Kamonchanok Tosanguan",
-        "image": "images/faculty/Dr._Kamonchanok_Tosanguan.jpg",
-        "x": 35,
-        "y": 75
-      }
-
+     {
+    "name_th": "",
+    "name_en": "Kittirat Pottraitip",
+    "image": "images/faculty/Kittirat_Pottraitip.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+  {
+    "name_th": "",
+    "name_en": "Tunyanusorn Suphasa",
+    "image": "images/faculty/Tunyanusorn_Suphasa.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+  {
+    "name_th": "",
+    "name_en": "Patcharaporn Chaowanapoonpol",
+    "image": "images/faculty/Patcharaporn_Chaowanapoonpol.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+  {
+    "name_th": "",
+    "name_en": "Chaiyapattarasurawong Wongla",
+    "image": "images/faculty/Chaiyapattarasurawong_Wongla.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+  {
+    "name_th": "",
+    "name_en": "Dr. Kamonchanok Tosanguan",
+    "image": "images/faculty/Dr._Kamonchanok_Tosanguan.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  }
     ],
 
     "EIC": [
-      {
-        "name": "Thanyalak Kumprom",
-        "image": "images/faculty/Thanyalak_Kumprom.jpg",
-        "x": 35,
-        "y": 75
-      },
-      {
-        "name": "Kamonwan Sangseekaew",
-        "image": "images/faculty/Kamonwan_Sangseekaew.jpg",
-        "x": 35,
-        "y": 75
-      },
-      {
-        "name": "Nadta Sasithorn",
-        "image": "images/faculty/Nadta_Sasithorn.jpg",
-        "x": 35,
-        "y": 75
-      },
-      {
-        "name": "Panupong Intawong",
-        "image": "images/faculty/Panupong_Intawong.jpg",
-        "x": 35,
-        "y": 75
-      },
-      {
-        "name": "Weerawat Lertromyanant",
-        "image": "images/faculty/Weerawat_Lertromyanant.jpg",
-        "x": 35,
-        "y": 75
-      },
-      {
-        "name": "Tifani Yuris Signori",
-        "image": "images/faculty/Tifani_Yuris_Signori.jpg",
-        "x": 35,
-        "y": 75
-      }
+    {
+    "name_th": "",
+    "name_en": "Thanyalak Kumprom",
+    "image": "images/faculty/Thanyalak_Kumprom.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+  {
+    "name_th": "",
+    "name_en": "Kamonwan Sangseekaew",
+    "image": "images/faculty/Kamonwan_Sangseekaew.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+  {
+    "name_th": "",
+    "name_en": "Nadta Sasithorn",
+    "image": "images/faculty/Nadta_Sasithorn.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+  {
+    "name_th": "",
+    "name_en": "Panupong Intawong",
+    "image": "images/faculty/Panupong_Intawong.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+  {
+    "name_th": "",
+    "name_en": "Weerawat Lertromyanant",
+    "image": "images/faculty/Weerawat_Lertromyanant.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+  {
+    "name_th": "",
+    "name_en": "Tifani Yuris Signori",
+    "image": "images/faculty/Tifani_Yuris_Signori.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  }
     ],
 
     "BTF": [
-       {
-        "name": "Yaowarat Ruteerayuth",
-        "image": "images/faculty/Yaowarat_Ruteerayuth.jpg",
-        "x": 35,
-        "y": 75
-      },
-      {
-        "name": "Phusatchi Kantabupha",
-        "image": "images/faculty/Phusatchi_Kantabupha.jpg",
-        "x": 35,
-        "y": 75
-      },
-      {
-        "name": "Kaninnaworathan Chairob",
-        "image": "images/faculty/Kaninnaworathan_Chairob.jpg",
-        "x": 35,
-        "y": 75
-      },
-      {
-        "name": "Dr.Qingya Li",
-        "image": "images/faculty/Dr.Qingya_Li.jpg",
-        "x": 35,
-        "y": 75
-      },
-      {
-        "name": "Dr. Suchanya Wongwes",
-        "image": "images/faculty/Dr._Suchanya_Wongwes.jpg",
-        "x": 35,
-        "y": 75
-      }
+{
+    "name_th": "",
+    "name_en": "Yaowarat Ruteerayuth",
+    "image": "images/faculty/Yaowarat_Ruteerayuth.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+  {
+    "name_th": "",
+    "name_en": "Phusatchi Kantabupha",
+    "image": "images/faculty/Phusatchi_Kantabupha.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+  {
+    "name_th": "",
+    "name_en": "Kaninnaworathan Chairob",
+    "image": "images/faculty/Kaninnaworathan_Chairob.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+  {
+    "name_th": "",
+    "name_en": "Dr.Qingya Li",
+    "image": "images/faculty/Dr.Qingya_Li.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  },
+  {
+    "name_th": "",
+    "name_en": "Dr. Suchanya Wongwes",
+    "image": "images/faculty/Dr._Suchanya_Wongwes.jpg",
+    "room": "",
+    "desk": "",
+    "status": "available",
+    "detail_th": "",
+    "detail_en": "",
+    "x": 35,
+    "y": 75
+  }
     ]
   }
 }
