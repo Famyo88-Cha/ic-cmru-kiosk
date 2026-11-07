@@ -387,17 +387,65 @@ transform:scale(1);
 
 }
 
+.map-person-container{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    margin-bottom:20px;
+
+}
+
+.map-person-photo{
+
+    margin-right:20px;
+
+    flex-shrink:0;
+
+}
+
+.map-person-image{
+
+    width:120px;
+
+    height:120px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:3px solid #77c5f2;
+
+    background:#123b70;
+
+}
+
+.map-person-info{
+
+    text-align:left;
+
+}
+
+.map-subtitle{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    margin-bottom:10px;
+
+}
+
 .map-detail{
-
-    margin-top:15px;
-
-    text-align:center;
 
     font-size:18px;
 
     line-height:1.8;
 
-    color:#ffffff;
+    color:#cbd5e1;
 
 }
 
