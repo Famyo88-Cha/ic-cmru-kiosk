@@ -279,7 +279,7 @@ function createInstructor(
             
     showMap(
     
-            currentLang === "th"
+            currentLang === "en"
             ? teacher.name_th
             : teacher.name_en,
         
