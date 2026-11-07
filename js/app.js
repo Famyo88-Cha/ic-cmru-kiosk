@@ -288,10 +288,10 @@ function createInstructor(
 
                 teacher.detail_th
     );
-);       
+};       
     container.appendChild(item);
 
-
+}
 
 function showMap(
     title,
