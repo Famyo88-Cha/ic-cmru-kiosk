@@ -6,8 +6,8 @@
         "th": "งานกิจการนักศึกษา",
         "en": "Student Affairs"
       },
-      "x": 25,
-      "y": 35
+      "x": 35,
+      "y": 75
     },
     {
       "id": "admissions",
@@ -67,8 +67,8 @@
     "status": "available",
     "detail_th": "-",
     "detail_en": "-",
-    "x": 35,
-    "y": 75
+    "x": 10,
+    "y": 55
   },
   {
     "name_th": "",
