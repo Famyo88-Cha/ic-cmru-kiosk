@@ -291,7 +291,7 @@ function createInstructor(
 );       
     container.appendChild(item);
 
-}
+
 
 function showMap(
     title,
