@@ -300,32 +300,59 @@ function showMap(
     title,
     x,
     y,
-    detail
+    detail,
+    image
 ){
 
-   document
-    .getElementById(
-        "map-subtitle"
-    ).innerHTML = title;
-
-if(detail){
-
     document
         .getElementById(
-            "map-detail"
-        )
-        .innerHTML = detail;
+            "map-subtitle"
+        ).innerHTML = title;
 
-}
-else{
+    if(detail){
 
-    document
-        .getElementById(
-            "map-detail"
-        )
-        .innerHTML = "";
+        document
+            .getElementById(
+                "map-detail"
+            )
+            .innerHTML = detail;
 
-}
+    }
+    else{
+
+        document
+            .getElementById(
+                "map-detail"
+            )
+            .innerHTML = "";
+
+    }
+
+    // แสดงรูป
+    if(image){
+
+        document
+            .getElementById(
+                "map-person-image"
+            )
+            .src = image;
+
+        document
+            .getElementById(
+                "map-person-image"
+            )
+            .style.display = "block";
+
+    }
+    else{
+
+        document
+            .getElementById(
+                "map-person-image"
+            )
+            .style.display = "none";
+
+    }
 
     navigateTo("screen-map");
 
