@@ -362,6 +362,31 @@ transform:scale(1);
         0 0 20px rgba(119,197,242,.4);
 
 }
+
+.map-person-card{
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+.map-person-image{
+
+    width:120px;
+
+    height:120px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:3px solid #77c5f2;
+
+    margin-bottom:15px;
+
+}
+
 .map-detail{
 
     margin-top:15px;
