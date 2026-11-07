@@ -1,5 +1,5 @@
 var appData = null;
-
+var currentMapItem = null;
 var currentLang = "th";
 
 var historyStack = [
@@ -273,7 +273,10 @@ function createInstructor(
 
     item.onclick =
         function(){
-
+    
+        currentMapItem =
+        teacher;
+            
             showMap(
                 currentLang === "en"
                 ? teacher.name_th
@@ -490,6 +493,62 @@ function toggleLanguage(){
     updateLanguageTexts();
 
     buildOfficeList();
+
+    // รีเฟรชรายชื่ออาจารย์
+    if(
+        historyStack[
+            historyStack.length-1
+        ] === "screen-instructors"
+    ){
+
+        var program =
+            document
+            .getElementById(
+                "faculty-title"
+            )
+            .innerHTML;
+
+        showFaculty(program);
+
+    }
+
+    // รีเฟรชหน้าแผนที่
+    if(
+        historyStack[
+            historyStack.length-1
+        ] === "screen-map"
+        &&
+        currentMapItem
+    ){
+
+        document
+            .getElementById(
+                "map-subtitle"
+            )
+            .innerHTML =
+
+            currentLang==="th"
+            ? currentMapItem.name_th
+            : currentMapItem.name_en;
+
+        document
+            .getElementById(
+                "map-detail"
+            )
+            .innerHTML =
+
+            "ห้อง : " +
+            currentMapItem.room +
+
+            "<br>" +
+
+            (
+                currentLang==="th"
+                ? currentMapItem.detail_th
+                : currentMapItem.detail_en
+            );
+
+    }
 
 }
 
