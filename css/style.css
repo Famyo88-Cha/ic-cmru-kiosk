@@ -373,9 +373,9 @@ transform:scale(1);
 
 .map-person-image{
 
-    width:120px;
+    width:80px;
 
-    height:120px;
+    height:80px;
 
     border-radius:50%;
 
@@ -407,21 +407,7 @@ transform:scale(1);
 
 }
 
-.map-person-image{
 
-    width:120px;
-
-    height:120px;
-
-    border-radius:50%;
-
-    object-fit:cover;
-
-    border:3px solid #77c5f2;
-
-    background:#123b70;
-
-}
 
 .map-person-info{
 
@@ -431,9 +417,9 @@ transform:scale(1);
 
 .map-subtitle{
 
-    font-size:28px;
+    font-size:20px;
 
-    font-weight:700;
+    font-weight:600;
 
     margin-bottom:10px;
 
