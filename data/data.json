@@ -1,5 +1,14 @@
 {
   "offices": [
+     {
+      "id": "student-academic",
+      "name": {
+        "th": "งานบริาการการศึกาษา/ฝึกประสบการณ์",
+        "en": "Registry and CO-OP"
+      },
+      "x": 45,
+      "y": 56
+    },
     {
       "id": "student-affairs",
       "name": {
