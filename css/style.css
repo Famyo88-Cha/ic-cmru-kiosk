@@ -362,6 +362,19 @@ transform:scale(1);
         0 0 20px rgba(119,197,242,.4);
 
 }
+.map-detail{
+
+    margin-top:15px;
+
+    text-align:center;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#ffffff;
+
+}
 
 }
 
