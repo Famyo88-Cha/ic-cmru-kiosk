@@ -270,13 +270,18 @@ function createInstructor(
         function(){
 
             showMap(
-                teacher.name,
+                teacher.name_th,
                 teacher.x,
-                teacher.y
-            );
+                teacher.y,
 
-        };
+                "ห้อง : " +
+                teacher.room +
 
+                "<br>" +
+
+                teacher.detail_th
+    );
+            
     container.appendChild(item);
 
 }
