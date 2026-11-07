@@ -59,14 +59,14 @@
 
     "ABM": [
   {
-    "name_th": "",
+    "name_th": "ผศ.พิชญา มณีรัตน์",
     "name_en": "Asst.Prof.Phichaya Maneerat",
     "image": "images/faculty/Phichaya.jpg",
-    "room": "",
-    "desk": "",
+    "room": "IC-LEC-01",
+    "desk": "14",
     "status": "available",
-    "detail_th": "",
-    "detail_en": "",
+    "detail_th": "-",
+    "detail_en": "-",
     "x": 35,
     "y": 75
   },
