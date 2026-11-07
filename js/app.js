@@ -12,6 +12,8 @@ document.addEventListener(
     "DOMContentLoaded",
     function(){
 
+        alert("APP START");
+        
         loadData();
 
         setupButtons();
