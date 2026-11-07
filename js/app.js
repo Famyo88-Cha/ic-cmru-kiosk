@@ -261,7 +261,7 @@ function createInstructor(
     "' class='instructor-img'>" +
 
     "<span>" +
-    (currentLang === "th"
+    (currentLang === "en"
      ? teacher.name_th
      : teacher.name_en)
         +
@@ -275,7 +275,7 @@ function createInstructor(
         function(){
 
             showMap(
-                currentLang === "th"
+                currentLang === "en"
                 ? teacher.name_th
                 : teacher.name_en,
                 teacher.x,
