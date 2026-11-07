@@ -301,6 +301,12 @@ transform:scale(1);
     height:100%;
 
     overflow-y:auto;
+    scrollbar-width:none;
+    -ms-overflow-style:none;
+}
+.screen::-webkit-scrollbar{
+
+    display:none;
 
 }
 
