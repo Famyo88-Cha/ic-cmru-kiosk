@@ -279,7 +279,7 @@ function createInstructor(
                 ? teacher.name_th
                 : teacher.name_en,
                 teacher.x,
-                teacher.y,
+                teacher.y
 
                 "ห้อง : " +
                 teacher.room +
