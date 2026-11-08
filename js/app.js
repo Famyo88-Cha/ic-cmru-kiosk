@@ -12,7 +12,7 @@ document.addEventListener(
     "DOMContentLoaded",
     function(){
 
-        alert("APP START");
+       // alert("APP START");
         
         loadData();
 
