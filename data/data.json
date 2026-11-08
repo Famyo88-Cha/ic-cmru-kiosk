@@ -1,11 +1,25 @@
 {
   "offices": [
-     {
+    {
       "id": "student-academic",
       "name": {
         "th": "งานบริาการการศึกาษา/ฝึกประสบการณ์",
         "en": "Registry and CO-OP"
       },
+      "room": "IC-201",
+      "qr_url":"https://forms.office.com/xxxxx",
+      "counter": "Counter 1",
+      "phone": "053-885-550",
+      "email": "registry@cmru.ac.th",
+      "office_hours_th": "08:30 - 16:30",
+      "office_hours_en": "08:30 - 16:30",
+      "detail_th": "บริการด้านการเรียน การฝึกประสบการณ์ และทะเบียนการศึกษา",
+      "detail_en": "Academic Registry and Cooperative Education Services",
+      "booking": {
+        "enabled": true,
+        "url": ""
+      },
+      "staff": [],
       "x": 45,
       "y": 56
     },
@@ -15,6 +29,20 @@
         "th": "งานกิจการนักศึกษา",
         "en": "Student Affairs"
       },
+      "room": "IC-202",
+      "qr_url":"https://forms.office.com/xxxxx",
+      "counter": "Counter 2",
+      "phone": "053-885-551",
+      "email": "studentaffairs@cmru.ac.th",
+      "office_hours_th": "08:30 - 16:30",
+      "office_hours_en": "08:30 - 16:30",
+      "detail_th": "บริการด้านกิจการนักศึกษา กิจกรรม และสวัสดิการ",
+      "detail_en": "Student Affairs, Activities and Welfare Services",
+      "booking": {
+        "enabled": true,
+        "url": ""
+      },
+      "staff": [],
       "x": 35,
       "y": 70
     },
@@ -24,6 +52,20 @@
         "th": "งานรับสมัครนักศึกษา",
         "en": "Admissions Office"
       },
+      "room": "IC-103",
+      "qr_url":"https://forms.office.com/xxxxx",
+      "counter": "Counter 3",
+      "phone": "053-885-552",
+      "email": "admissions@cmru.ac.th",
+      "office_hours_th": "08:30 - 16:30",
+      "office_hours_en": "08:30 - 16:30",
+      "detail_th": "บริการด้านรับสมัครและคัดเลือกนักศึกษา",
+      "detail_en": "Student Admission and Selection Services",
+      "booking": {
+        "enabled": true,
+        "url": ""
+      },
+      "staff": [],
       "x": 35,
       "y": 70
     },
@@ -33,8 +75,43 @@
         "th": "งานวีซ่า",
         "en": "Visa Services"
       },
-      "x": 35,
-      "y": 70
+      "room": "IC-102",
+      "qr_url":"https://forms.office.com/xxxxx",
+      "counter": "Counter 1",
+      "phone": "053-885-555",
+      "email": "visa@cmru.ac.th",
+      "office_hours_th": "08:30 - 16:30",
+      "office_hours_en": "08:30 - 16:30",
+      "detail_th": "บริการด้านวีซ่าและเอกสารต่างประเทศ",
+      "detail_en": "Visa and International Documentation Services",
+      "booking": {
+        "enabled": true,
+        "url": ""
+      },
+      "staff": [
+        {
+          "name_th": "ศศิธร ใจดี",
+          "name_en": "Sasithorn Jaidee",
+          "position_th": "เจ้าหน้าที่งานวีซ่า",
+          "position_en": "Visa Officer",
+          "image": "images/staff/sasithorn.jpg",
+          "phone": "053-885-555",
+          "email": "sasithorn@cmru.ac.th",
+          "status": "available"
+        },
+        {
+          "name_th": "พรทิพย์ แก้วคำ",
+          "name_en": "Porntip Kaewkam",
+          "position_th": "เจ้าหน้าที่งานวีซ่า",
+          "position_en": "Visa Officer",
+          "image": "images/staff/porntip.jpg",
+          "phone": "053-885-555",
+          "email": "porntip@cmru.ac.th",
+          "status": "available"
+        }
+      ],
+      "x": 55,
+      "y": 30
     },
     {
       "id": "it",
@@ -42,6 +119,20 @@
         "th": "งานเทคโนโลยีสารสนเทศ",
         "en": "IT Support"
       },
+      "room": "IC-104",
+      "qr_url":"https://forms.office.com/xxxxx",
+      "counter": "Counter 4",
+      "phone": "053-885-553",
+      "email": "it@cmru.ac.th",
+      "office_hours_th": "08:30 - 16:30",
+      "office_hours_en": "08:30 - 16:30",
+      "detail_th": "บริการด้านเทคโนโลยีสารสนเทศและสนับสนุนระบบ",
+      "detail_en": "Information Technology Support Services",
+      "booking": {
+        "enabled": true,
+        "url": ""
+      },
+      "staff": [],
       "x": 20,
       "y": 75
     },
@@ -51,11 +142,24 @@
         "th": "งานธุรการ",
         "en": "Administration"
       },
+      "room": "IC-101",
+      "qr_url":"https://forms.office.com/xxxxx",
+      "counter": "Counter 5",
+      "phone": "053-885-554",
+      "email": "admin@cmru.ac.th",
+      "office_hours_th": "08:30 - 16:30",
+      "office_hours_en": "08:30 - 16:30",
+      "detail_th": "บริการด้านธุรการและบริหารทั่วไป",
+      "detail_en": "General Administration and Management Services",
+      "booking": {
+        "enabled": true,
+        "url": ""
+      },
+      "staff": [],
       "x": 30,
       "y": 65
     }
   ],
-
   "programs": [
     "ABM",
     "IBM",
